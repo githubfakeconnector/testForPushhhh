@@ -1,0 +1,420 @@
+{
+  "applicationTitle": "Replenishment Requests",
+
+  "cookiesBar": {
+      "usingCookies": "Rolex websites use cookies. Find out what cookies are",
+      "linkTitle": "here",
+      "agreeConfirmation": ". By continuing your visit to this site, you agree to our use of cookies."
+  },
+
+  "cookies": {
+    "title": "Cookie policy",
+    "secondTitle": "Performance & tracking cookies",
+    "thirdTitle": "Technical cookies",
+    "firstParagraph": "We use cookies to provide you with a safe, effective and user-friendly website.",
+    "secondParagraph": "We use performance & tracking cookies to further improve our website in order to always provide you with the best possible online experience tailored to your needs.",
+    "thirdParagraph": "Technical cookies are strictly necessary for www.myrolexnetwork.com to work properly. We use them to provide you access to premium services using your Rolex profile. Technical cookies cannot be deactivated."
+  },
+
+  "menu": {
+    "myDashboard": "My Dashboard",
+    "replenishmentRequestsRolex": "Replenishment Requests - Rolex",
+    "replenishmentRequestsTudor": "Replenishment Requests - Tudor",
+    "replenishmentRequest": "Replenishment Request",
+    "catalog": "Browse by Family",
+    "catalogV2": "Browse by Family v2",
+    "replenishmentRequestHistory": "Request History",
+    "affiliateContacts": "Affiliate’s Contacts",
+    "cookies": "Cookies",
+    "legal": "Legal",
+    "logout": "Log out",
+    "searchReferenceOrRmc": "Search Reference or RMC",
+    "enterReferenceOrRmc": "Enter Reference or RMC",
+    "results": "results"
+  },
+
+  "navigation": {
+    "back": "Back",
+    "cookiePolicy": "Cookie policy",
+    "legalInformation": "Legal information",
+    "logout": "{{userDescription}} - Logout"
+  },
+  "catalog": {
+    "title" : "Catalog"
+  },
+  "replenishmentRequest": {
+
+    "filtersHeaderLabel": "Filters",
+    "title": "Replenishment Request",
+    "subtitle": "{{selectedRetailer.name}}",
+    "lastUpdateMessage": "last update {{daysAgo}} days ago by {{userProfile.titleLabel}} {{userProfile.firstName}} {{userProfile.lastName}} on {{updateDate}}",
+
+    "dashboard": {
+
+      "sold": {
+        "title": "Sold Last",
+        "options": {
+          "30d": "30D",
+          "12m": "12M"
+        }
+      },
+
+      "inProgress": {
+        "title": "In Progress",
+        "options": {
+          "all": "All",
+          "m": "M",
+          "m1": "M+1",
+          "m2": "M+2",
+          "later": "Later",
+          "laterplusm2": "Later + M+2"
+        }
+      },
+
+      "suggested": {
+        "title": "Suggested"
+      },
+
+      "requested": {
+        "title": "Requested"
+      },
+
+      "lastUpdate": "last update",
+      "daysAgoBy": "days ago by",
+      "on": "on",
+      "showDashboard": "Show Dashboard",
+      "hideDashboard": "Hide Dashboard"
+    },
+
+    "filters": {
+
+      "searchMessage": "Search or add reference, RMC, diameter...",
+      "showFilters": "Show filters",
+      "hideFilters": "Hide filters",
+      "removeFilters": "Remove filters",
+
+      "categoryFilters": {
+        "all": "All selection",
+        "professionalSteel": "Professional steel",
+        "baselworld": "Baselworld"
+      },
+
+      "columnFilters": {
+        "stock": "Stock",
+        "30d": "30d",
+        "12m": "12m",
+        "m": "M",
+        "m+1": "M+1",
+        "m+2": "M+2",
+        "later": "Later",
+        "deliveriesYtd": "Deliv.YTD",
+        "allocated": "Obj.",
+        "suggested": "Sug.",
+        "requested": "Req.",
+        "inProgress": "In.Prog.",
+        "basicStock": "BSP."
+      },
+
+      "addRmc": "Add the RMC"
+    },
+
+    "tableHeader": {
+      "soldLast": "Sold last",
+      "inProgress": "Requests in progress",
+      "quantity": "Quantity",
+      "reference": "Reference",
+      "rmc": "RMC",
+      "dial": "Dial",
+      "diameter": "Diameter",
+      "braceletReference": "Bracelet reference",
+      "stock": "Stock",
+      "30d": "30d",
+      "12m": "12m",
+      "m": "M",
+      "m+1": "M+1",
+      "m+2": "M+2",
+      "later": "Lat.",
+      "deliveriesYtd": "Deliv.YTD",
+      "allocated": "Obj.",
+      "suggested": "Sug.",
+      "requested": "Req.",
+      "basicStock": "BSP.",
+      "comment": "Comment"
+    },
+
+    "footer": {
+      "totalCount": "{{selectedCount}} of {{totalCount}}",
+      "exportXls": "CSV Export",
+      "importXls": "Import CSV",
+      "lastRequest": "Last Request",
+      "addAndProceed": "Add and proceed",
+      "resetQuanity": "Reset Quantity",
+      "pleaseAddRequests": "Please add requests to proceed"
+    },
+
+    "modals": {
+      "notice": {
+        "title": "Please notice",
+        "stampFirst": "data last updated",
+        "stampSecond": "days ago",
+        "stampThird": "by",
+        "stampFourth": "on",
+        "text": "We are updating the data continuously. However if you have made a request within the last month the data may not yet have been updated.",
+        "buttonText": "Continue"
+      },
+      "changeRetailer": {
+        "title": "Retailer selection",
+        "introduction": "You are about to select",
+        "question": "Are you sure?",
+        "text": "We are updating the data continuously. However if you have made a request within the last month the data may not yet have been updated.",
+        "confirmButtonText": "Confirm",
+        "cancelButtonText": "Cancel"
+      },
+      "resetQuantity": {
+        "title": "Reset requested quantities",
+        "content": "Are you sure you want to delete all requested quantities?",
+        "question": "Are you sure?",
+        "confirmButtonText": "Confirm",
+        "cancelButtonText": "Cancel"
+      },
+      "csvSuccessNotification": {
+        "title": "File import success",
+        "text": "Your Replenishment Request was successfully updated",
+        "buttonText": "Done"
+      },
+      "csvErrorRmcsNotification": {
+        "title": "File import error",
+        "text": "Only references available from the master catalogue can be loaded into the system. Please revise your file accordingly.",
+        "label": "Invalid RMCs",
+        "buttonText": "Done"
+      },
+      "csvErrorLinesNotification": {
+        "title": "File import error",
+        "label": "Invalid data at line(s)",
+        "buttonText": "Done"
+      },
+      "csvErrorNotification": {
+        "title": "File import error",
+        "emptyFile": "File is empty",
+        "buttonText": "Done"
+      },
+      "csvDialogConfirmation": {
+        "title": "File import confirmation",
+        "text": "Some models are already present in your cart.<br />How would you like to proceed with new quantities?",
+        "buttonCancelText": "Cancel",
+        "buttonOverwriteText": "Overwrite",
+        "buttonIncrementText": "Increment"
+      }
+    }
+
+  },
+
+  "dashboard": {
+    "subtitlePrefix": "Explore the",
+    "subtitleSuffix": "Collections",
+    "title": "Replenish Your Inventory",
+    "introduction": "The ",
+    "browseTheFamily": "Browse the family"
+  },
+
+  "replenishmentRequestSummary": {
+
+    "subtitle": "{{selectedRetailer.name}}",
+    "title": "Replenishment Request Summary",
+    "headerMessage1": "The prices are provided for illustrative purposes only and are subject to change.",
+    "headerMessage2": "The price quoted is the Suggested retailer price (inc. VAT) for Switzerland.",
+
+    "tableHeader": {
+      "reference": "Reference",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "rmc": "RMC",
+      "dial": "Dial",
+      "diameter": "Diameter",
+      "braceletReference": "Bracelet reference",
+      "total": "Total",
+      "comment": "Comment"
+    },
+
+    "offCatalogRequests": {
+      "addMessage": "Add an off-catalogue request",
+      "addMessageReadMode": "Off catalogue requests",
+      "itemType": "Type of item",
+      "reference": "Reference",
+      "description": "Description",
+      "qty": "Quantity"
+    },
+
+    "affiliateMessage": {
+      "message": "Would you like to add a message to your affiliate?",
+      "messageReadMode": "Message to your affiliate",
+      "placeholder": "Enter your message"
+    },
+
+    "footerItems": {
+      "back": "Back to",
+      "timePieces": "Timepieces",
+      "print": "Print summary",
+      "export": "CSV Export",
+      "confirm": "Confirm request",
+      "resend": "Resend Your Request"
+    },
+
+    "confirmation": {
+      "thankYou": "Thank you",
+      "text": "YOUR REPLENISHMENT REQUEST WAS SUCCESSFULLY SENT",
+      "continue": "Continue to replenishment request"
+    },
+
+    "affiliate": {
+      "title": "Confirm",
+      "text": "Please contact your affiliate",
+      "buttonText": "Ok"
+    },
+
+    "typeDialog": {
+      "title": "Select type of request",
+      "text": "Please select if your request is<br />a new request or<br />a complement to an existing request",
+      "buttonNewRequestText": "New Request",
+      "buttonComplementText": "Complement"
+    },
+
+    "resendConfirmation": {
+      "title": "Success",
+      "text": "A copy of your replenishment request has been sent successfully.",
+      "buttonText": "Ok"
+    },
+
+    "pdfHeader": {
+      "date": "Date",
+      "requestedBy": "Requested by",
+      "retailerName": "Retailer name",
+      "customerId": "Customer id",
+      "requestId": "Request id"
+    }
+
+  },
+
+  "replenishmentRequestHistory": {
+    "title": "Replenishment Request History",
+    "subtitle": "{{selectedRetailer.name}}",
+
+    "list": {
+      "newSearch": "New search",
+      "noResults": "No result.",
+      "please": "Please, modify your search.",
+      "quantity": "Qty",
+      "requestBy": "Request By",
+      "type": "Type",
+      "requestStatus": "Status",
+      "requestDate": "Date",
+      "requestId": "ID",
+      "viewLink": "View Request Summary"
+    }
+  },
+
+  "errorDialog": {
+    "unauthenticated": {
+      "title": "Unauthenticated access",
+      "content": "You are not correctly authenticated. Please log out and login successfully."
+    },
+    "unauthorized": {
+      "title": "Unauthorized access",
+      "content": "You have not been granted access to this data. Please request your administrator for access rights."
+    },
+    "unavailable": {
+      "title": "Service unavailable",
+      "content": "Your swipe history is unavailable at this time. Please try again later."
+    }
+  },
+
+  "majesty": {
+    "requestReplenishmentButton": "Request Replenishment",
+    "discMessage": "Photos displayed by default with an English language disc",
+    "inclVat": "incl. VAT",
+    "priceDescription": "Suggested Retail Price",
+
+    "attributes": {
+      "reference": "Reference",
+      "diameter": "Diameter",
+      "bezel": "Bezel",
+      "caseMaterial": "Case Material",
+      "waterResistance": "Water-Resistance",
+      "calibre": "Calibre",
+      "braceletReference": "Bracelet Reference",
+      "braceletMaterial": "Bracelet Material",
+      "braceletReferenceShort": "Reference",
+      "braceletMaterialShort": "Material",
+      "dial": "Dial",
+      "discLanguage": "Disc Language",
+      "presentationBox": "Presentation Box",
+      "presentationBooklets": "Presentation Booklets",
+      "powerReserve": "Power Reserve",
+      "more": "More information on"
+    },
+
+    "attributesTitles": {
+      "model": "Model",
+      "movement": "Movement",
+      "bracelet": "Bracelet",
+      "dial": "Dial",
+      "salesAccessories": "Sales Accessories"
+    }
+  },
+
+  "catalogFilter": {
+    "filterButtonText": "Filter your search",
+    "requestReplenishmentButton": "Request replenishment",
+    "resetButtonText": "Reset",
+    "removeFilters": "Remove filters",
+    "all": "All",
+    "closeButtonText": "Close Filters",
+    "filtersRowTitle": "Select Your Filters",
+    "new": "New",
+    "allFamilies": {
+      "all": "All",
+      "families": "Families"
+    }
+  },
+
+  "grid": {
+    "modals": {
+      "updatedRequest": {
+        "title": "Thank You",
+        "content": "Your current Replenishment Request was successfully updated",
+        "buttonReplenishmentRequest": "View Replenishment Request",
+        "buttonDone": "Done"
+      },
+      "leaveConfirmation": {
+        "title": "Leave Confirmation",
+        "content": "Are you sure you want to leave this page?",
+        "confirm": "Yes",
+        "cancel": "No"
+      }
+    }
+  },
+
+  "legal": {
+    "title": "Legal information",
+    "firstTitle": "User eligibility",
+    "firstParagraph": "Use of the Communication Guidelines MYROLEXNETWORK (the “Portal”) is generally limited to affiliated ROLEX SA companies and ROLEX’s authorized distributors that wish to incorporate, use or order any content of the Portal (the “Content”). However, ROLEX SA reserves the right to grant access to other parties as it determines to be appropriate. Each user agrees to provide ROLEX SA with accurate and complete registration information. Users should provide updated registration information to ROLEX SA. Users are responsible for maintaining the confidentiality of their password and account and each user is fully responsible for all activities that occur under such users’s password and account. If any unauthorized use of your password or account or other breach of security occurs you must notify ROLEX SA immediately and promptly change your password.",
+    "secondTitle": "Intellectual property rights",
+    "secondParagraph": "All intellectual property rights, in particular copyrights, in the Portal and the Content are owned by ROLEX SA.<br />User shall not remove any copyright or other intellectual property notices contained in the Content.<br />The trademarks, logos and any other distinctive character displayed on the Portal and the Content are owned by ROLEX SA.",
+    "thirdTitle": "User conduct",
+    "thirdParagraph": "You shall not use any device, software or routine to interfere or attempt to interfere with the proper workings of the Portal. You shall not take any action which imposes an unreasonable or disproportionately large load on ROLEX SA's infrastructure. You agree that you will not use any robot, spider, other automatic device, or manual process to monitor, deep link with or copy ROLEX SA's Web pages or the content contained therein without ROLEX SA's prior written consent.",
+    "fourthTitle": "No warranty",
+    "fourthParagraph": "ROLEX SA provides the portal, the content and its services “as is” and without any warranty, express or implied, to the full extent permitted by applicable law. ROLEX SA specifically disclaims the implied warranties, merchantability, fitness for a particular purpose and non-infringement. ROLEX SA does not warrant that the portal will operate uninterrupted, error free or that the portal, its server and any content are free of computer viruses and other harmful elements. ROLEX SA makes no warranty regarding the accuracy, timeliness or completeness of any content or other information on the portal, nor that the content or the portal will meet your requirements.",
+    "fifthTitle": "Limitation of liability",
+    "fifthParagraph": "In no event shall ROLEX SA, its content providers, other suppliers, licensors be liable for any damages whatsoever (including, without limitation, direct, indirect, incidental and consequential damages, lost profits, or damages resulting from lost data or business interruption) resulting from the use or inability to use portal and the content, whether based on warranty, contract, tort, or any other legal theory. ROLEX SA shall not have any liability whatsoever arising from your use of or reliance on any content, on any information regarding the content or on the portal generally.",
+    "sixthTitle": "Termination",
+    "sixthParagraph": "ROLEX SA reserves the right to immediately terminate your account in its discretion, including in the event ROLEX SA determines that your conduct is unacceptable, or in the event you breach these Terms and Conditions.",
+    "seventhTitle": "Privacy policy",
+    "seventhParagraph": "ROLEX SA respects your rights to privacy and is committed to maintaining your confidentiality. Any information you provide ROLEX SA through this Portal will not be sold or rented. ROLEX SA does not collect any information from you without your knowledge and permission. In order to access the Portal and the Content, you must enter some identifying information. ROLEX SA does not disclose this information to anyone except to manage the Portal and database with the help of service providers who are subject to non-disclosure obligations. Information you provide ROLEX SA is stored in a secure location and is accessible only by designated staff.<br />ROLEX SA uses cookies to record the preferences of users. Cookies are small files which are stored on your hard drive that ease navigation, and increase the user-friendliness of a Portal.",
+    "eighthTitle": "Applicable law and jurisdiction",
+    "eighthParagraph": "These Terms and Conditions and, generally, the use of the Portal and the Content, are governed by the laws of Switzerland.<br />Any dispute arising out of or in connection with these Terms and Conditions and, generally, with the use of the Portal and the Content, shall be submitted to the exclusive jurisdiction of the ordinary courts of the canton of Geneva, Switzerland.",
+    "ninthTitle": "Contact",
+    "ninthParagraph": "If you have any questions or concerns regarding this Policy or our privacy practices, please contact us by writing to or calling:",
+    "organisation": "Rolex SA",
+    "address": "Rue François-Dussaud, 3-5-7<br />1211 Genève 26 – Switzerland<br />+41 22 302 22 00"
+  }
+}
